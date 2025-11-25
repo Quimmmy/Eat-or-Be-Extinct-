@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6c202b40dd8423b4e993eec144d64f56
+guid: 97e9d07a3082b8e4295b155362d4bf20
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 74679956372699637
-    second: meteorr_0
+      213: 5173920134669062742
+    second: 589166550_1383219999910458_1480627272922523756_n_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,24 +96,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: meteorr_0
+      name: 589166550_1383219999910458_1480627272922523756_n_0
       rect:
         serializedVersion: 2
         x: 124
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f9bf6f4601590100800000000000000
-      internalID: 74679956372699637
+      spriteID: 652d03b23f47dc740800000000000000
+      internalID: 5173920134669062742
       vertices: []
       indices: 
       edges: []
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      meteorr_0: 74679956372699637
+      589166550_1383219999910458_1480627272922523756_n_0: 5173920134669062742
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
