@@ -14,12 +14,19 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         horizontalInput = Input.GetAxis("Horizontal");
-
-
     }
 
     private void FixedUpdate()
     {
         rb.linearVelocity = new Vector2(horizontalInput * moveSpeed, rb.linearVelocity.y);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("FallingObject"))
+        {
+            ScoreManager.instance.AddScore();
+            Destroy(other.gameObject);
+        }
     }
 }
