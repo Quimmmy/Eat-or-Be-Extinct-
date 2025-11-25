@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class SpawnScript : MonoBehaviour
+public class ObjectSpawner : MonoBehaviour
 {
     [Header("Prefabs to Spawn")]
     [SerializeField] GameObject[] objectsToSpawn;
