@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c3043c26651c7af46bc80d3ac2eca784
+guid: e9b6a5a7c35e4bc48adcc18cb26e4c41
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8494688990396318550
-    second: 588497234_841817128211281_819231468505300633_n_0
+      213: -8828830073122825889
+    second: GAmeover 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 588497234_841817128211281_819231468505300633_n_0
+      name: GAmeover 1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 160
-        height: 128
+        width: 800
+        height: 640
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6538ef541a233e570800000000000000
-      internalID: 8494688990396318550
+      spriteID: f595a3d53d1b97580800000000000000
+      internalID: -8828830073122825889
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      588497234_841817128211281_819231468505300633_n_0: 8494688990396318550
+      GAmeover 1_0: -8828830073122825889
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
