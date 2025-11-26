@@ -24,8 +24,8 @@ public class PlayerHealth : MonoBehaviour
 
     void Die()
     {
-        Debug.Log("Player Died!");
-        Destroy(gameObject); // player is destroyed after taking maxHealth hits
+        PlayerPrefs.SetInt("lastScore", ScoreManager.instance.GetScore());
         SceneManager.LoadScene("EndingScene");
     }
+
 }
