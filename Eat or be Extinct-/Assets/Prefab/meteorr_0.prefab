@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 509899797467601736}
   m_Layer: 0
   m_Name: meteorr_0
-  m_TagString: Untagged
+  m_TagString: FallingObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -191,5 +191,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d2e4630c24e96a48b78399e3b3fdbb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDamage
-  playerHealth: {fileID: 0}
   damage: 1

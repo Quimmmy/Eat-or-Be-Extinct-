@@ -1,4 +1,4 @@
-using TMPro;
+﻿using TMPro;
 using UnityEngine;
 
 public class ScoreManager : MonoBehaviour
@@ -21,6 +21,7 @@ public class ScoreManager : MonoBehaviour
         
     void Start()
     {
+        highscore = PlayerPrefs.GetInt("highscore", 0);
         scoreText.text = "POINTS: " + score;
         highscoreText.text = "HIGHSCORE: " + highscore;
     }
@@ -34,6 +35,8 @@ public class ScoreManager : MonoBehaviour
         {
             highscore = score;
             highscoreText.text = "HIGHSCORE: " + highscore;
+
+            PlayerPrefs.SetInt("highscore", score);
         }
     }
 }
